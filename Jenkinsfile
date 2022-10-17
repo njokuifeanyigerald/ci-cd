@@ -79,7 +79,7 @@ pipeline{
 		script{                   
                     withAWS(credentials: 'my-cba-aws-credential', region: 'eu-west-2') {
                         sh '''echo "Downloading jar from s3 for deployment to ${ENV}" '''
-                        s3Download bucket: 'document-ak', file: 'myproject.jar', path: 'ci-demo/javaapp/myapp.jar'
+                        s3Download bucket: 'document-gerald', file: 'myproject.jar', path: 'ci-demo/javaapp/myapp.jar'
                     }
 		 }
              }
