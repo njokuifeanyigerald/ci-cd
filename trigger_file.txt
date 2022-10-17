@@ -1,2 +1,1 @@
-Hi this is sample file
-hi ...
+Hello from Gerald
